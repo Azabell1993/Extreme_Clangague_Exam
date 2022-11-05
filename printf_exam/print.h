@@ -27,7 +27,6 @@ typedef struct CLOUD {
 
 int return_dream(const int *dream,  char *return_contents) {
     CLOUD cloud;
-    cloud->return_contents = return_contents;
     return_contents = "로우레벨 웹 통합 플렛폼 엔지니어";
     if(sizeof(cloud->mydream) == 4)
         return (printf("%s\n",return_contents));
