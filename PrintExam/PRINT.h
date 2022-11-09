@@ -1,10 +1,28 @@
+/*
+ * PRINT.h
+ *
+ *  Created on: 2022. 11. 9.
+ *      Author: jeewo
+ */
 #pragma ONCE
-#ifndef _PROGRAM_H
-#define _PROGRAM_H
+#ifndef PRINT_H_
+#define PRINT_H_
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef int (*_cloud)(const int *dream,  char *return_contents);
+#ifdef __cheaderfile
+extern "C" {
+#endif
+#ifndef BUILD_MY_DLL
+#define SHARED_LIB __declspec(dllexport)
+#else
+#define SHARED_LIB __declspec(dllexport)
+#endif
+#ifdef _GNUC_
+	typedef int (*_cloud)(const int *dream, char *return_contents);
+	int return_dream(const int *dream, const char *return_contents);
+	int main(int argc, char *argv[]);
+#endif
+typedef int (*_cloud)(const int *dream, char *return_contents);
 
 #define PARK_HEADER                     \
     int *mydream;                       \
@@ -19,19 +37,22 @@ typedef int (*_cloud)(const int *dream,  char *return_contents);
 DECL_PARK(NAME, RETURN_FUNCTION) = {            \
 }
 
-typedef struct CLOUD {
+// C로 짠 Lib를 C++로 Porting하기 위해서는 typedef struct를 제외한다.
+struct CLOUD {
     int *mydream;
     char *return_contents;
     int (*_cloud)(const int *,  char *);
-} *CLOUD;
+} ;
 
-int return_dream(const int *dream,  char *return_contents) {
-    CLOUD cloud;
-    return_contents = "�ο췹�� �� ���� �÷��� �����Ͼ�";
-    if(sizeof(cloud->mydream) == 4)
+
+int return_dream(const int *dream, const char *return_contents) {
+    struct CLOUD *cloud;
+    // const 없이는 char로 C style 문자열 불가
+    // const로 자료형을 지정해주면 빌드 후에 출력됨
+    return_contents = "Hello World\n";
+    if(sizeof(*cloud->mydream) == 4)
         return (printf("%s\n",return_contents));
 }
-
 #endif
 
 #ifndef _MAIN_H
@@ -53,9 +74,15 @@ typedef int (*_main)(int argc, char *argv[]);
 PRINF_FUNCTION(ARGC, ARGV) = {    \
 }
 
-int main(int argc, char *argv[]) {
+/*
+	@parm
+*/
+int __cdecl main(int argc, char *argv[]) {
     return_dream(mydream, return_contents);
     return 0;
 }
 
+#ifdef __headerfile
+}
 #endif
+#endif /* PRINT_H_ */
