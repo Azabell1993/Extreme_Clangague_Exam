@@ -45,7 +45,7 @@ struct CLOUD {
 } ;
 
 
-int return_dream(const int *dream, const char *return_contents) {
+__cdecl int return_dream(const int *dream, const char *return_contents) {
     struct CLOUD *cloud;
     // const 없이는 char로 C style 문자열 불가
     // const로 자료형을 지정해주면 빌드 후에 출력됨
