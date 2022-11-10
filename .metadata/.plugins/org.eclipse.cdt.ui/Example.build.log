@@ -1,4 +1,0 @@
-cmake --build . --target all
-Consolidate compiler generated dependencies of target Example
-[100%] Built target Example
-Build complete (0 errors, 0 warnings): D:\Extreme_Clangague_Exam\Example\build\default

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PrintExam/PrintExam.cpp&apos; to &apos;PrintExam.c&apos;" description="Rename resource &apos;PrintExam.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="PrintExam.cpp" name="PrintExam.c" stamp="1667996122801" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;PrintExam/PrintExam.c&apos; to &apos;PrintExam.cpp&apos;" description="Rename resource &apos;PrintExam.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="PrintExam.c" name="PrintExam.cpp" stamp="1667996184790" updateReferences="true"/>
-</session>

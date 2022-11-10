@@ -1,3 +1,0 @@
-D:/Extreme_Clangague_Exam/MysqlTest/cmake-build-debug/CMakeFiles/MySqlTest.dir
-D:/Extreme_Clangague_Exam/MysqlTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Extreme_Clangague_Exam/MysqlTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

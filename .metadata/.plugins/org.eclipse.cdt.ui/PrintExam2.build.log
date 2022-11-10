@@ -1,3 +1,0 @@
-make -f ..\..\Makefile
-g++.exe  -o PrintExam PrintExam.o
-Build complete (0 errors, 0 warnings): D:\Extreme_Clangague_Exam\PrintExam2\build\default
