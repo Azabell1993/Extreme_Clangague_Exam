@@ -1,5 +1,9 @@
 /.metadata/
+
 /MysqlTest/cmake-build-debug/
+
 /PrintExam/.settings/
+
 /PrintExam/.dbeaver/
+
 /PrintExam/build/
