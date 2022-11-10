@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Print_Exam Configuration,org.eclipse.launchbar.core.descriptorType.default\:Print_Exam.exe,org.eclipse.launchbar.core.descriptorType.default\:Hello.exe,org.eclipse.launchbar.core.descriptorType.default\:ttt.exe,org.eclipse.launchbar.core.descriptorType.default\:eee.exe,org.eclipse.launchbar.core.descriptorType.default\:Example.exe,org.eclipse.launchbar.core.descriptorType.default\:eeeeee.exe,org.eclipse.launchbar.core.descriptorType.default\:PrintExam.exe (2),org.eclipse.launchbar.core.descriptorType.default\:PrintExam.exe (1),org.eclipse.cdt.debug.core.coreBuildDescriptorType\:PrintExam,org.eclipse.launchbar.core.descriptorType.default\:PrintExam.exe,org.eclipse.launchbar.core.descriptorType.default\:ddddd.exe,org.eclipse.cdt.debug.core.coreBuildDescriptorType\:Mysql
+eclipse.preferences.version=1
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:PrintExam/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:PrintExam/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:Print_Exam/activeLaunchMode=run
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:Print_Exam/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Hello.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:PrintExam.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Print_Exam.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:eeeeee.exe/activeLaunchMode=run

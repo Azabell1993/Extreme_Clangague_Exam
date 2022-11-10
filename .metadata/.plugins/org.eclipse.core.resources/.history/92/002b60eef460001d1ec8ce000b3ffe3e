@@ -1,0 +1,12 @@
+cmake_minimum_required (VERSION 2.6)
+
+project (Mysql)
+
+add_executable(Mysql Mysql.cpp)
+
+set(FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR "C:\\Program Files\\MariaDB 10.11")
+include_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}\\include)
+link_directories(${FULL_PATH_TO_MYSQL_CONNECTOR_CPP_DIR}\\lib)
+
+target_link_libraries(Mysql "C:/Program Files/MariaDB 10.11/lib/libmariadb.lib")
+target_link_libraries(Mysql "C:/Program Files/MariaDB 10.11/lib/libmariadb.dll")

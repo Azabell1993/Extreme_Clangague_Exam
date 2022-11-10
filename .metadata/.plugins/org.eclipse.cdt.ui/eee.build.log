@@ -1,0 +1,3 @@
+cmake --build . --target all
+[100%] Built target eee
+Build complete (0 errors, 0 warnings): D:\Extreme_Clangague_Exam\eee\build\default

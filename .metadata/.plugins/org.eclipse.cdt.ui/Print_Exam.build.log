@@ -1,0 +1,3 @@
+make -f ..\..\Makefile
+..\..\Makefile:15: *** Build mode profile not supported by this Makefile.  Stop.
+Build complete (1 errors, 0 warnings): D:\Extreme_Clangague_Exam\Print_Exam\build\make.profile.win32.x86_64
