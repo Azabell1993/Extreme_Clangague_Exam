@@ -3,7 +3,8 @@
 /MysqlTest/cmake-build-debug/
 
 /PrintExam/.settings/
-
 /PrintExam/.dbeaver/
-
 /PrintExam/build/
+
+/Mutex/cmake-build-debug/
+/Thread/cmake-build-debug/
