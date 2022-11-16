@@ -9,7 +9,7 @@ link_directories("C:\\Program Files\\MySQL\\MySQL Server 8.0\\lib")
 
 link_libraries(libmysql)
 
-add_executable(MySqlTest main.cpp ../Thread/thread.h)
+add_executable(MySqlTest main.cpp)
 target_link_libraries(MySqlTest mysqlclient
         -Wall -Werror -Wformat
         )
